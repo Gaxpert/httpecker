@@ -7,11 +7,11 @@ Takes a list of http or https urls and returns their status codes
 ## Usage
 Default usage checks for http and https status code.
 
-It can take a list of urls from a file or standard input
+It can take a list of urls from a file 
 
 `httpecker -f url_list.txt`
 
-or
+or standard input
 
 `cat url_list.txt | httpecker`
 
